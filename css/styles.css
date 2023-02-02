@@ -1,0 +1,231 @@
+:root {
+  --main-text-color: #2e2f42;
+  --second-text-color: #434455;
+  --main-bg-color: #fff;
+  --title-text-color: #fff;
+  --second-bg-color: #f4f4fd;
+  --btn-bg-color: #f4f4fd;
+  --btn-bg-color-active: #4048bf;
+  --btn-text-color: #4d5ae5;
+  --btn-text-color-active: #fff;
+  --title-btn-active-hover: #404bbf;
+  --footer-text: #e7e9fc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+ul {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+.span-logo {
+  color: var(--btn-text-color);
+}
+
+.studio,
+.portfolio,
+.contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+.studio:hover,
+.studio:focus,
+.portfolio:hover,
+.portfolio:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--btn-text-color);
+}
+
+.mail,
+.phone {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--second-text-color);
+}
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--btn-text-color);
+}
+
+.hero {
+  background-color: var(--main-text-color);
+  text-align: center;
+}
+.title-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-bg-color);
+}
+
+.title-button {
+  cursor: pointer;
+  background-color: var(--btn-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--title-text-color);
+}
+.title-button:hover,
+.title-button:focus {
+  background-color: var(--title-btn-active-hover);
+  color: var(--title-text-color);
+}
+
+.none {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.post-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.post-title-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.images-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+
+.team-section {
+  background-color: var(--second-bg-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.post-team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
+
+.footer .logo {
+  color: var(--btn-bg-color);
+}
+
+.logo-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text);
+}
+
+.footer {
+  background-color: var(--main-text-color);
+}
+
+.button-all,
+.button-web,
+.button-app,
+.button-design,
+.button-marketing {
+  cursor: pointer;
+  background-color: var(--btn-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--btn-text-color);
+}
+.button-all:hover,
+.button-all:focus,
+.button-web:hover,
+.button-web:focus,
+.button-app:hover,
+.button-app:focus,
+.button-design:hover,
+.button-design:focus,
+.button-marketing:hover,
+.button-marketing:focus {
+  background-color: var(--btn-bg-color-active);
+  color: var(--btn-text-color-active);
+}
+
+.post-images-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.images-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--second-text-color);
+}
