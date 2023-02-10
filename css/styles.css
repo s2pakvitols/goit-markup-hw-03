@@ -11,35 +11,58 @@
   --title-btn-active-hover: #404bbf;
   --footer-text: #e7e9fc;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-text-color);
   background-color: var(--main-bg-color);
 }
+
 .container {
-  width: 1128px;
+  max-width: 1158px;
   margin: 0 auto;
-}
-
-ul {
-  list-style: none;
-
-  margin: 0;
-  padding: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
 }
 
 .link {
-  margin: 0;
-  padding: 0;
   text-decoration: none;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .heder-case {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
+ 
 }
 
 .navigation {
@@ -64,9 +87,9 @@ ul {
   color: var(--main-text-color);
   text-decoration: none;
   text-align: center;
-  margin-right: 70px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  padding-right: 70px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 .span-logo {
   color: var(--btn-text-color);
@@ -111,11 +134,12 @@ ul {
 .hero {
   background-color: var(--main-text-color);
   text-align: center;
-  padding-top: 188px;
-  margin-bottom: 120px;
+ padding: 188px 0;
+ 
 }
 .title-text {
-  margin: 0;
+  width: 496px;
+  display: inline-block;
   margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
@@ -124,20 +148,20 @@ ul {
   color: var(--main-bg-color);
 }
 
+
+
 .title-button {
   cursor: pointer;
   background-color: var(--btn-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--title-text-color);
-  margin-bottom: 188px;
   padding: 16px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border-color: #4d5ae5;
+  border-color: #4d5ae5; */
 }
 
 .title-button:hover,
@@ -162,16 +186,14 @@ ul {
 
 .section-specifics {
   display: flex;
-  padding: 0;
-  margin-bottom: 120px;
-  justify-content: center;
   gap: 24px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .post-title {
-  margin: 0px 0px 4px 0px;
-  padding: 0;
-
+  
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -180,8 +202,7 @@ ul {
 }
 
 .post-title-text {
-  margin: 0;
-  padding: 0;
+  
   width: 264px;
   font-weight: 400;
   font-size: 16px;
@@ -189,10 +210,12 @@ ul {
   letter-spacing: 0.02em;
   color: var(--second-text-color);
 }
+.doing-box {
+padding-bottom: 120px;
+}
 
 .images-title {
-  margin: 0 0 72px 0;
-  padding: 0;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -205,16 +228,19 @@ ul {
 .list-img {
   display: flex;
   gap: 24px;
-  margin-bottom: 72px;
 }
 
 .team-section {
   background-color: var(--second-bg-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  /* padding-top: 32px;  */
+
 }
 
 .team-title {
-  margin: 0 0 72px 0;
-  padding-top: 120px;
+  margin-bottom: 72px;;
+  
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -224,9 +250,6 @@ ul {
 }
 
 .post-team-title {
-  padding: 0;
-  margin: 0;
-  padding-top: 32px;
   margin-bottom: 8px;
   font-size: 16px;
   font-weight: 500;
@@ -239,7 +262,7 @@ ul {
 
 .team-box {
   background-color: var(--main-bg-color);
-
+  padding: 32px 0; 
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -248,13 +271,9 @@ ul {
 .team-item {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-text {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 32px;
   font-weight: 400;
   line-height: 1.5;
   text-align: center;
@@ -264,16 +283,16 @@ ul {
 
 .footer .logo {
   color: var(--btn-bg-color);
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text {
-  padding-top: 100px;
-  padding-left: 156px;
-  margin-bottom: 16px;
+ 
 }
 
 .logo-text {
-  width: 264px;
-  padding-bottom: 100px;
+  width: 264px;  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -283,12 +302,16 @@ ul {
 
 .footer {
   background-color: var(--main-text-color);
+  padding: 100px 0;
+   ;
 }
 
 .botton {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 96px;
+  padding-bottom: 72px;
 }
 
 .button-all,
@@ -297,8 +320,6 @@ ul {
 .button-design,
 .button-marketing {
   cursor: pointer;
-  margin-top: 96px;
-  margin-bottom: 72px;
   padding: 12px 24px;
   background-color: var(--btn-bg-color);
   font-weight: 500;
@@ -308,10 +329,10 @@ ul {
   letter-spacing: 0.04em;
   color: var(--btn-text-color);
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  border: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc; */
 }
 .button-all:hover,
 .button-all:focus,
@@ -334,15 +355,15 @@ ul {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .img-tbox {
   border: 1px solid #e7e9fc;
 }
 
 .post-images-title {
-  margin: 0 0 8px 0;
-  padding: 32px 0 0 16px;
+  
+  
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -350,8 +371,7 @@ ul {
   color: var(--main-text-color);
 }
 .images-text {
-  margin: 0;
-  padding: 0 0 32px 16px;
+  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
