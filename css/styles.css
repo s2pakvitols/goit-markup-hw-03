@@ -62,7 +62,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 24px 0;
- 
 }
 
 .navigation {
@@ -91,6 +90,7 @@ body {
   /* padding-top: 24px;
   padding-bottom: 24px; */
 }
+
 .span-logo {
   color: var(--btn-text-color);
 }
@@ -134,8 +134,7 @@ body {
 .hero {
   background-color: var(--main-text-color);
   text-align: center;
- padding: 188px 0;
- 
+  padding: 188px 0;
 }
 .title-text {
   width: 496px;
@@ -147,8 +146,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-bg-color);
 }
-
-
 
 .title-button {
   cursor: pointer;
@@ -192,7 +189,6 @@ body {
 }
 
 .post-title {
-  
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -202,7 +198,6 @@ body {
 }
 
 .post-title-text {
-  
   width: 264px;
   font-weight: 400;
   font-size: 16px;
@@ -211,7 +206,7 @@ body {
   color: var(--second-text-color);
 }
 .doing-box {
-padding-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .images-title {
@@ -235,12 +230,11 @@ padding-bottom: 120px;
   padding-top: 120px;
   padding-bottom: 120px;
   /* padding-top: 32px;  */
-
 }
 
 .team-title {
-  margin-bottom: 72px;;
-  
+  margin-bottom: 72px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -262,7 +256,7 @@ padding-bottom: 120px;
 
 .team-box {
   background-color: var(--main-bg-color);
-  padding: 32px 0; 
+  padding: 32px 0;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -288,11 +282,10 @@ padding-bottom: 120px;
   margin-bottom: 16px;
 }
 .footer-text {
- 
 }
 
 .logo-text {
-  width: 264px;  
+  width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -303,7 +296,6 @@ padding-bottom: 120px;
 .footer {
   background-color: var(--main-text-color);
   padding: 100px 0;
-   ;
 }
 
 .botton {
@@ -362,8 +354,6 @@ padding-bottom: 120px;
 }
 
 .post-images-title {
-  
-  
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -371,7 +361,6 @@ padding-bottom: 120px;
   color: var(--main-text-color);
 }
 .images-text {
-  
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
